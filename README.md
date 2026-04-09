@@ -58,11 +58,11 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `Ashitha Ashok` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
-| `Varada Supanekar` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Role]` | `[Write here]` |
+| `Ashitha Ashok` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Design]` | `[Write here]` |
+| `Varada Supanekar` | `[Electronics / Coding / App / Fabrication / Mechanics]` | `[Fabrication]` | `[Write here]` |
 
 ## 1.3 Project Title
-`[Enter the title of your project]`
+`Batman: Pixel City Defender`
 
 ## 1.4 One-Line Pitch
 `A fast-paced pixel-art Batman game where the player flies through Gotham while dodging and shooting obstacles in real time.`
@@ -75,7 +75,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[Write here]`
+`[The project is a 2D pixel-art interactive game where Batman navigates across a scrolling cityscape. The player controls Batman’s movement and must dodge incoming obstacles while optionally shooting threats before they reach a base or collide with the player.
+
+The experience combines reflex-based gameplay with visual satisfaction through pixel animation. It is engaging due to increasing difficulty, fast decision-making, and continuous motion. Technologies involved include game design software (Unity or Godot), pixel art tools, and optional controller input through hardware (ESP32 or keyboard).]`
 
 ---
 
@@ -101,7 +103,7 @@ Answer the following:
 - Why would someone want to try it again?
 
 **Response:**  
-`[Write here]`
+`[A reflex-based arcade experience. The player feels urgency, focus, and satisfaction from avoiding obstacles and successfully eliminating threats. Replay value comes from score improvement and increasing difficulty.]`
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -109,7 +111,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[Write here]`
+`[We are designing this project as if we are a small creative studio making a game for teens and young adults.]`
 
 ---
 
@@ -120,15 +122,15 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
-| `[Toy / Board game / App / Video / Website / Object]` | `[Link or title]` | `[What did you learn or borrow?]` |
+| `Video game'" | `Flappy Bird` | `Simple but addictive obstacle dodging` |
+|  " Game ` | `Jetpack Joyride` | `Continuous motion and obstacle variation` |
+| `Visual Type` | `Retro Pixel Game` | `Minimal aesthetic, nostalgic feel` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[Write here]`
+`[Combining dodging + shooting in a single continuous motion system, with a Batman theme and dynamic difficulty scaling ]`
 
 ---
 
@@ -144,37 +146,37 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[Write here]`
+`[move → dodge/shoot → survive → score → repeat]`
 
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Write here]` |
-| Age range | `[Write here]` |
-| Solo or multiplayer | `[Write here]` |
-| Expected duration of one round | `[Write here]` |
-| What should the player feel? | `[Write here]` |
-| Is explanation required before use? | `[Write here]` |
+| Who is this for? | `[Casual Gamers]` |
+| Age range | `[12-25]` |
+| Solo or multiplayer | `[Solo]` |
+| Expected duration of one round | `[2-5 minutes]` |
+| What should the player feel? | `[Fast, alert, competitive]` |
+| Is explanation required before use? | `[minimal]` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[How does the player first encounter it?]`
-2. **Start:** `[How do they begin?]`
-3. **First Action:** `[What do they do first?]`
-4. **Main Interaction:** `[What keeps happening during use?]`
-5. **System Response:** `[How does the project respond?]`
-6. **Win / Lose / End Condition:** `[How does one round end?]`
-7. **Reset:** `[How does the next round begin?]`
+1. **Approach:** `[Player sees screen with moving city]`
+2. **Start:** `[Press start key/button]`
+3. **First Action:** `[Move Batman]`
+4. **Main Interaction:** `[Dodge + shoot obstacles]`
+5. **System Response:** `[Score increases, speed increases]`
+6. **Win / Lose / End Condition:** `[Collision or base damage]`
+7. **Reset:** `[Restart button]`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
+- Avoid obstacles
+- Shoot threats before impact
+- Survive as long as possible
+- Score increases over time
 
 ---
 
@@ -183,24 +185,24 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Condition 1]`
-- [ ] `[Condition 2]`
-- [ ] `[Condition 3]`
-- [ ] `[Condition 4]`
-- [ ] `[Condition 5]`
+- Character moves smoothly
+- Obstacles spawn correctly
+- Collision detection works
+- Shooting mechanism works
+- Score updates correctly]`
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
 
 **Response:**  
-`[Write here]`
+`[Batman moves + basic obstacles + collision detection + score counter]`
 
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
 
-- `[Stretch feature 1]`
-- `[Stretch feature 2]`
-- `[Stretch feature 3]`
+- Power-ups
+- Sound effects
+- Multiple levels
 
 ---
 
@@ -210,17 +212,11 @@ What features are nice to have but not essential?
 Check all that apply.
 
 - [ ] Electronics-based
-- [ ] Mechanical
 - [ ] Sensor-based
-- [ ] App-connected
-- [ ] Motorized
-- [ ] Sound-based
-- [ ] Light-based
 - [ ] Screen/UI-based
-- [ ] Fabricated structure
 - [ ] Game logic based
 - [ ] Installation / tabletop experience
-- [ ] Other: `[Write here]`
+
 
 ## 6.2 High-Level System Description
 Explain how the system works in simple terms.
@@ -233,7 +229,10 @@ Include:
 - app interaction if any.
 
 **Response:**  
-`[Write here]`
+`[Input: keyboard/controller
+Processing: game engine logic
+Output: screen visuals + score
+Structure: digital interface]`
 
 ## 6.3 Input / Output Map
 
