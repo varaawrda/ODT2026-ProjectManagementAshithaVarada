@@ -58,14 +58,14 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `Ashitha Ashok` | `[Coding / App]` | `[Electronics]` | `[Strong logic building, UI thinking, integration]` |
-| `Varada Supanekar` | `[Electronics / Fabrication]` | `[Mechanics]` | `[Circuit design, physical prototyping]` |
+| `Ashitha Ashok` | `[Coding / App]` | `Frontend UI developer` | `[Logic building, UI thinking, integration]` |
+| `Varada Supanekar` | `[Electronics / Fabrication]` | `[Hardware Mechanics]` | `[Circuit design, Physical Prototyping, Model building]` |
 
 ## 1.3 Project Title
-`[Batman Dodge]`
+BatManor
 
 ## 1.4 One-Line Pitch
-`A fast-paced pixel-art interactive game where Batman navigates a chaotic city while players control survival through real-time physical inputs.`
+`A fast-paced pixel-art interactive game where Batman navigates a chaotic manor while player control survival through real-time physical inputs.`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -75,9 +75,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[The project is a 2D pixel-art interactive game system** where Batman moves continuously across a city landscape, and the player must help him dodge obstacles such as buildings, enemies, and projectiles. The system combines screen-based gameplay with physical interaction** using sensors/buttons connected to an ESP32.
+`[The project is a 2D pixel-art interactive game system** where Batman moves continuously across a chaotic manor, and the player must help him dodge obstacles such as buildings, enemies, and projectiles. The system combines screen-based gameplay with physical interaction** using sensors/buttons connected to an ESP32.
 
-The experience is designed to be **fast, reactive, and replayable**, emphasizing reflexes and timing. The pixel aesthetic creates nostalgia, while the physical interaction introduces embodiment, making it more engaging than a purely digital game.]`
+The experience is designed to befast,reactive and playable, emphasizing reflexes and timing. The pixel aesthetic creates nostalgia, while the physical interaction introduces embodiment, making it more engaging than a purely digital game.]`
 
 ---
 
@@ -105,7 +105,7 @@ Answer the following:
 **Response:**  
 `[- Experience: Fast reflex-based dodging game
 - Feeling: Tension, urgency, satisfaction after survival
-- Replay value: Increasing difficulty and score-based motivation]`
+- Replay value: Increasing difficulty and complexity advances levels]`
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -113,7 +113,7 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[We are designing this project as a game for teens and exhibition visitors.]`
+`[We are designing this project as a game for children,teens and exhibition visitors.`
 
 ---
 
@@ -124,15 +124,15 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Video Game]` | `[Flappy Bird]` | `[Simple but addictive loop]` |
+| `[Video Game/ Website / Object]` | `[Flappy Bird]` | `[Simple but addictive loop]` |
 | `[Video Game]` | `[Jetpack Joyride]` | `[Continuous motion gameplay]` |
-| `[Visual Style]` | `[Pixel Art Games]` | `[Minimal but expressive visuals]` |
+| `[App / Video / Website]` | `[Pixel Art Games]` | `[Minimal but expressive visuals]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[The integration of physical controls (buttons/sensors) with a digital pixel with the illusion carried by the mirror , game creates a hybrid interaction, unlike typical screen-only games.]`
+`[The integration of physical controls (joystick buttons/sensors) with a digital pixel with the illusion carried by the mirror , game creates a hybrid interaction,which ]`
 
 ---
 
@@ -148,37 +148,41 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[press → jump/dodge → avoid obstacle → score increases → repeat]`
-
+- press using joystick on console → launch → move using console
+- observe →  dodge snipers → attack to kill  → movement detected  → light response (neopixel)
+- levels advance  → complexity increased  → repeat
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Students / exhibition visitors]` |
-| Age range | `[10–25]` |
+| Who is this for? | `[Students / exhibition visitors / young adults / millennials ]` |
+| Age range | `[10–35]` |
 | Solo or multiplayer | `[Solo]` |
 | Expected duration of one round | `[30–60 seconds per round]` |
 | What should the player feel? | `[Tension and excitement]` |
-| Is explanation required before use? | `[Minimal]` |
+| Is explanation required before use? | `[Minimal/ Adapting to console controls]` |
 
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[Sees screen + controls]`
-2. **Start:** `[Press button]`
-3. **First Action:** `[Batman starts moving]`
-4. **Main Interaction:** `[What keeps happening during use?]`
-5. **System Response:** `[How does the project respond?]`
-6. **Win / Lose / End Condition:** `[How does one round end?]`
-7. **Reset:** `[How does the next round begin?]`
+1. **Approach:** `[appears as a mirror / after approaching screen turns on - turning it into a display]`
+2. **Start:** `[Press button to begin the game]`
+3. **First Action:** `[Moving using the console to move around the manor.]`
+4. **Main Interaction:** `[The Batman progresses as it dodges and tries to kill the ghosts ]`
+5. **System Response:** `[Every strike of the flare, every movement in the game has a sensory reaction through the neopixel strips ]`
+6. **Win / Lose / End Condition:** `[With each level, the difficulty increases as the number of ghosts rises and their flare activity becomes more intense, making evasion progressively more challenging. The game follows an endless progression model with no fixed ending—players continue advancing through levels until all four lives are lost.]`
+7. **Reset:** `[Left Joystick reset button enables a restart of the game]`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
+- The player has 4 lives.
+- Use the joystick to move, attack ghosts, and dash.
+- Avoid all ghosts and their flares.
+- Getting hit by a ghost or flare costs 1 life.
+- Each level increases the number of ghosts and overall difficulty.
+- Survive as long as possible to progress to higher levels.
+- The game ends when all lives are lost.
 
 ---
 
@@ -187,17 +191,17 @@ If your project is a game, list the rules clearly.
 ## 5.1 Definition of “Playable”
 Your project will be considered complete only if these conditions are met.
 
-- [ ] `[Condition 1]`
-- [ ] `[Condition 2]`
-- [ ] `[Condition 3]`
-- [ ] `[Condition 4]`
-- [ ] `[Condition 5]`
+- Game successfully runs on the iPad behind the mirror without crashes.
+- Ultrasonic sensor accurately detects player presence and triggers the game.
+- Joystick controls (movement, attack, dash) respond reliably in real time.
+- Ghosts, flares, and level progression function as intended.
+- NeoPixel LEDs react correctly to in-game actions (shoot, hit, damage, etc.).
 
 ## 5.2 Minimum Viable Version
 What is the smallest version of this project that still delivers the core experience?
 
 **Response:**  
-`[Write here]`
+`[A reflective surface (mirror film or acrylic) with a display behind it that reveals a simple game when a player approaches, using basic input controls and light-based interaction, with minimal but noticeable feedback.]`
 
 ## 5.3 Stretch Features
 What features are nice to have but not essential?
@@ -214,17 +218,14 @@ What features are nice to have but not essential?
 Check all that apply.
 
 - [ ] Electronics-based
-- [ ] Mechanical
 - [ ] Sensor-based
 - [ ] App-connected
-- [ ] Motorized
-- [ ] Sound-based
 - [ ] Light-based
 - [ ] Screen/UI-based
 - [ ] Fabricated structure
 - [ ] Game logic based
 - [ ] Installation / tabletop experience
-- [ ] Other: `[Write here]`
+
 
 ## 6.2 High-Level System Description
 Explain how the system works in simple terms.
@@ -237,16 +238,40 @@ Include:
 - app interaction if any.
 
 **Response:**  
-`[Write here]`
+`[Input:
+The system takes input through a light sensor that detects the player’s presence and four buttons used for controlling movement, attack, and dash actions within the game.
+
+Processing:
+The game runs on an Apple iPad using GDevelop. It processes player inputs, manages game logic (movement, collisions, and level progression), and triggers corresponding reactions in the lighting system.
+
+Output:
+Visual output is displayed on the iPad screen behind the mirror, while NeoPixel LED strip provide real-time lighting feedback based on in-game events such as shooting, hits, or damage.
+
+Physical Structure:
+The setup uses a one-way mirror (one side is reflective another is transparent) placed in front of the iPad. When the display is off or dark, it behaves like a regular mirror. When the game activates, the screen becomes visible through the mirror, creating a layered reflection + digital illusion. Joystick and sensors are mounted externally for user interaction, and LEDs are integrated around the structure for ambient feedback.
+
+App Interaction:
+The game runs as a html website built in GDevelop on the laptop which is further screen mirrred to the Ipad which is fixed to the mirror, handling all gameplay, visuals, and communication with hardware to ensure synchronized interaction between digital and physical elements.]`
 
 ## 6.3 Input / Output Map
 
 | System Part | Type | What It Does |
 |---|---|---|
-| `[Button / Sensor / Switch / App Input]` | Input | `[Describe]` |
-| `[ESP32 / Controller]` | Processing | `[Describe]` |
+| `[Light Sensor]` | Input | `[Detects player presence and triggers the game activation when someone approaches]` |
+| `[Jpystick(S)]` | Input | `[Allows the player to control movement and perform actions like attack and dash through directional and press input]` |
+| Apple iPad (running GDevelop)                | Processing      | Runs the game, processes player input, handles game logic, and generates visual output                              |
+| `[Joystic(s)]` | Processing | `[Describe]` |
 | `[LED / Motor / Servo / Buzzer / Display]` | Output | `[Describe]` |
 | `[Mechanical Assembly]` | Physical Action | `[Describe]` |
+| System Part                                  | Type            | What It Does                                                                                                        |
+| -------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Light Sensor                                 | Input           | Detects player presence and triggers the game activation when someone approaches                                    |
+| Joystick(s)                                  | Input           | Allows the player to control movement and perform actions like attack and dash through directional and press inputs |
+| Microcontroller (e.g., ESP32)                | Processing      | Reads sensor and joystick inputs, and communicates signals between hardware and the game system                     |
+| Apple iPad (running GDevelop)                | Processing      | Runs the game, processes player input, handles game logic, and generates visual output                              |
+| NeoPixel LED strip                           | Output          | Provides real-time lighting feedback based on in-game actions (shooting, hits, damage)                              |
+| Display (iPad Screen)                        | Output          | Shows the game visuals through the one-way mirror                                                                   |
+| Mirror Assembly (One-way mirror + enclosure) | Physical Action | Creates the illusion of a normal mirror that transforms into an interactive game display                            |
 
 ---
 
