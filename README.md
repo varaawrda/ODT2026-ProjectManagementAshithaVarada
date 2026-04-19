@@ -58,14 +58,14 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `Ashitha Ashok` | `[Coding / App]` | `[Electronics]` | `[Strong logic building, UI thinking, integration]` |
+| `Ashitha Ashok` | `[Coding / App]` | `[Frontend Game Developer ]` | `[Strong logic building, UI thinking, integration]` |
 | `Varada Supanekar` | `[Electronics / Fabrication]` | `[Mechanics]` | `[Circuit design, physical prototyping]` |
 
 ## 1.3 Project Title
-`[Batman Dodge]`
+BatManor
 
 ## 1.4 One-Line Pitch
-`A fast-paced pixel-art interactive game where Batman navigates a chaotic city while players control survival through real-time physical inputs.`
+A fast-paced pixel-art interactive game where Batman navigates a chaotic city while players control survival through real-time physical inputs.
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
@@ -75,9 +75,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`[The project is a 2D pixel-art interactive game system** where Batman moves continuously across a city landscape, and the player must help him dodge obstacles such as buildings, enemies, and projectiles. The system combines screen-based gameplay with physical interaction** using sensors/buttons connected to an ESP32.
+The project is a 2D pixel-art interactive game system** where Batman moves continuously across a city landscape, and the player must help him dodge obstacles such as buildings, enemies, and projectiles. The system combines screen-based gameplay with physical interaction** using sensors/buttons connected to an ESP32.
 
-The experience is designed to be **fast, reactive, and replayable**, emphasizing reflexes and timing. The pixel aesthetic creates nostalgia, while the physical interaction introduces embodiment, making it more engaging than a purely digital game.]`
+The experience is designed to be fast, reactive, and replayable, emphasizing reflexes and timing. The pixel aesthetic creates nostalgia, while the physical interaction introduces embodiment, making it more engaging than a purely digital game.
 
 ---
 
@@ -103,9 +103,9 @@ Answer the following:
 - Why would someone want to try it again?
 
 **Response:**  
-`[- Experience: Fast reflex-based dodging game
+ Experience: Fast reflex-based dodging game
 - Feeling: Tension, urgency, satisfaction after survival
-- Replay value: Increasing difficulty and score-based motivation]`
+- Replay value: Increasing difficulty and score-based motivation
 
 ## 2.3 Design Persona
 Complete the sentence below:
@@ -113,7 +113,9 @@ Complete the sentence below:
 > We are designing this project as if we are a small creative studio making a **[toy / game / playable object / interactive experience]** for **[children / teens / adults / classmates / exhibition visitors / mixed audience]**.
 
 **Response:**  
-`[We are designing this project as a game for teens and exhibition visitors.]`
+This project is designed for a broad audience, with a focus on young adults and millennials, tapping into retro arcade nostalgia while remaining intuitive and engaging for all age groups.
+
+Conceived as a hybrid between an installation and a household object, the system is highly adaptable in where it can exist. It can be placed in exhibition spaces as an interactive piece, integrated into living rooms as a playful digital artifact, or even installed in unconventional settings like bathrooms; transforming an everyday mirror into an unexpected moment of interaction and delight.
 
 ---
 
@@ -124,15 +126,15 @@ List what inspired the project.
 
 | Source Type | Title / Link | What Inspired You |
 |---|---|---|
-| `[Video Game]` | `[Flappy Bird]` | `[Simple but addictive loop]` |
+| Toy / App  / Object | `[Flappy Bird]` | `[Simple but addictive loop]` |
 | `[Video Game]` | `[Jetpack Joyride]` | `[Continuous motion gameplay]` |
-| `[Visual Style]` | `[Pixel Art Games]` | `[Minimal but expressive visuals]` |
+| `[ App / Video / Website]` | `[Pixel Art Games]` | `[Minimal but expressive visuals]` |
 
 ## 3.2 Original Twist
 What makes your project original?
 
 **Response:**  
-`[The integration of physical controls (buttons/sensors) with a digital pixel with the illusion carried by the mirror , game creates a hybrid interaction, unlike typical screen-only games.]`
+`[The integration of physical controls (joystick buttons) with a digital pixel with the illusion carried by the mirror , game creates a hybrid interaction using a neopixel, unlike typical screen-only games it serves a dual concept a playing device and a mirror simultaneously.]`
 
 ---
 
@@ -148,14 +150,16 @@ Examples:
 - move object → sensor detects → sound/light response → player reacts
 
 **Response:**  
-`[press → jump/dodge → avoid obstacle → score increases → repeat]`
+- press → launch 
+- move joystick (WASD moves) → avoid obstacle → fire bullets → sensorial reaction(light response)
+- fire bullets → unlock levels → repeat
 
 ## 4.2 Intended Player / Audience
 
 | Question | Response |
 |---|---|
-| Who is this for? | `[Students / exhibition visitors]` |
-| Age range | `[10–25]` |
+| Who is this for? | `[Students / exhibition visitors / young adults / millennials ]` |
+| Age range | `[10–35]` |
 | Solo or multiplayer | `[Solo]` |
 | Expected duration of one round | `[30–60 seconds per round]` |
 | What should the player feel? | `[Tension and excitement]` |
@@ -164,21 +168,24 @@ Examples:
 ## 4.3 Player Journey
 Describe exactly how a player will use the project.
 
-1. **Approach:** `[Sees screen + controls]`
-2. **Start:** `[Press button]`
-3. **First Action:** `[Batman starts moving]`
-4. **Main Interaction:** `[What keeps happening during use?]`
-5. **System Response:** `[How does the project respond?]`
-6. **Win / Lose / End Condition:** `[How does one round end?]`
-7. **Reset:** `[How does the next round begin?]`
+1. **Approach:** `[Sees screen + appears as mirror on approach + detects movement (of humans), turns into screen]`
+2. **Start:** `[Press right josytick switch on console ]`
+3. **First Action:** `[Batman starts moving using left joystick WASD movements]`
+4. **Main Interaction:** `[The interaction between batman and ghosts is based on flares and bullets. The batman has to dodge the ghost flares and simultaneously attempt to kill the ghosts to unlock new levels]`
+5. **System Response:** `[On batman movement the light reaction using neopixel takes place followed by flares and bullets hit.]`
+6. **Win / Lose / End Condition:** `With each level, the difficulty increases as the number of ghosts rises and their flare activity becomes more intense, making evasion progressively more challenging. The game follows an endless progression model with no fixed ending—players continue advancing through levels until all four lives are lost.`
+7. **Reset:** `Press left joystick to reset lives and restart game`
 
 ## 4.4 Rules of Play
 If your project is a game, list the rules clearly.
 
-- `[Rule 1]`
-- `[Rule 2]`
-- `[Rule 3]`
-- `[Rule 4]`
+- The player has 4 lives.
+- Use the joystick to move, attack ghosts, and dash.
+- Avoid all ghosts and their flares.
+- Getting hit by a ghost or flare costs 1 life.
+- Each level increases the number of ghosts and overall difficulty.
+- Survive as long as possible to progress to higher levels.
+- The game ends when all lives are lost.
 
 ---
 
