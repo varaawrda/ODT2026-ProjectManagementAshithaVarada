@@ -58,14 +58,14 @@ By the final review, this README should clearly show:
 
 | Name | Primary Role | Secondary Role | Strengths Brought to the Project |
 |---|---|---|---|
-| `Ashitha Ashok` | `[Coding / App]` | `[Electronics]` | `[Strong logic building, UI thinking, integration]` |
-| `Varada Supanekar` | `[Electronics / Fabrication]` | `[Mechanics]` | `[Circuit design, physical prototyping]` |
+| `Ashitha Ashok` | `[Coding / App]` | `Frontend UI developer` | `[Logic building, UI thinking, integration]` |
+| `Varada Supanekar` | `[Electronics / Fabrication]` | `[Hardware Mechanics]` | `[Circuit design, Physical Prototyping, Model building]` |
 
 ## 1.3 Project Title
-`[Batman Dodge]`
+BatManor
 
 ## 1.4 One-Line Pitch
-`A fast-paced pixel-art interactive game where Batman navigates a chaotic city while players control survival through real-time physical inputs.`
+`A fast-paced pixel-art interactive game where Batman navigates a chaotic manor while player control survival through real-time physical inputs.`
 
 ## 1.5 Expanded Project Idea
 In 1–2 paragraphs, explain:
